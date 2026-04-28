@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AI PDF Chatbot </h1>
+
+    <!-- Upload -->
+    <div class="card">
+        <h3>Upload PDF</h3>
+        <form id="uploadForm">
+            <input type="file" name="file" required>
+            <button type="submit">Upload</button>
+        </form>
+        <p id="uploadStatus"></p>
+    </div>
+
+    <!-- Chat -->
+    <div class="card">
+        <h3>Ask Question</h3>
+        <input type="text" id="question" placeholder="Ask something...">
+        <button onclick="ask()">Ask</button>
+        <div id="chatBox"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
