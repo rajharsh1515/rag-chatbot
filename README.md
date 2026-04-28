@@ -21,3 +21,6 @@
 
 ## Note
 This project uses Ollama (local LLM), so it runs locally.
+
+## Screenshot 
+<img width="237" height="413" alt="image" src="https://github.com/user-attachments/assets/23de09d9-c2e5-4044-930c-bfd450c755a9" />
